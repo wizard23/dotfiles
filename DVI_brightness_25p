@@ -1,2 +1,3 @@
+xrandr --verbose
 
 xrandr --output DisplayPort-0 --brightness 0.25
