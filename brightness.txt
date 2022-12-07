@@ -1,2 +1,6 @@
+sudo apt install brightnessctl
+
+sudo brightnessctl -l
+
 sudo brightnessctl -d radeon_bl0 s 30%
 
