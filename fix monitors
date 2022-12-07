@@ -1,0 +1,10 @@
+# xrandr --output eDP --mode 1920x1200
+# xrandr --output eDP --mode 2560x1440 --right-of DisplayPort-0
+
+# xrandr --output DisplayPort-0 --left-of eDP
+
+
+# just a hack to get the monitor to reset ;)
+xrandr --output eDP --mode 1920x1200
+xrandr --output eDP --mode 2560x1440 --output --mode 1280x1024
+xrandr --output DisplayPort-0 --auto --pos 0x416 --output eDP --auto --pos 1380x0

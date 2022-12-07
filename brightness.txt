@@ -1,0 +1,2 @@
+sudo brightnessctl -d radeon_bl0 s 30%
+
