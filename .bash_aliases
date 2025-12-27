@@ -13,6 +13,11 @@ alias gl5="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset 
 #alias gl='git log '
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias gll="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit -p"
+
+## all branches colored
+alias gla="git log --all --graph --decorate --date=format:'%Y-%m-%d %H:%M' --pretty=format:'%C(yellow)%h%Creset %C(cyan)%ad%Creset %C(auto)%d %s'"
+alias gla2="git log --all --graph --decorate --date=format:'%Y-%m-%d %H:%M' --pretty=format:'%C(auto)%h %ad %d %s'"
+
 alias gp='git push'
 alias gpl='git pull'
 alias gps='git push'
